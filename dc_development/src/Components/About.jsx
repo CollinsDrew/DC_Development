@@ -11,59 +11,54 @@ const About = () => {
   return (
     <div
       name="services"
-      className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4"
+      className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4 text-gray-300"
     >
       {/* Left Side */}
       <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
         <img
           className="row-span-3 object-cover w-full h-full p-2"
           src={Image1}
-          alt="image"
+          alt="/"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
           src={Image2}
-          alt="image"
+          alt="/"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
           src={Image3}
-          alt="image"
+          alt="/"
         />
         <img
           className="row-span-3 object-cover w-full h-full p-2"
           src={Image4}
-          alt="image"
+          alt="/"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
           src={Image5}
-          alt="image"
+          alt="/"
         />
       </div>
       {/* Right Side */}
       <div className="flex flex-col h-full justify-center">
         <h3 className="text-5xl md:text-6xl font-bold">Services</h3>
         <p className="text-2xl py-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, sit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+          nam?
         </p>
         <p className="pb-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-          magni porro provident minima rem quasi sapiente ipsum dolore
-          exercitationem, laboriosam, recusandae neque! Perspiciatis ipsam sequi
-          deleniti totam provident reprehenderit! Fuga.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+          voluptates nostrum dolorum reprehenderit error! Doloribus est illo
+          eius saepe? Molestias sapiente perspiciatis doloribus consectetur
+          nihil facilis aliquid eaque vel quisquam.
         </p>
         <div>
-          <Link to="projects">
-            <button className="border-black mr-4 hover:shadow-xl cursor-pointer">
-              Recent Projects
-            </button>
-          </Link>
-          <Link to="contact">
-            <button className="cursor-pointer bg-black text-white border-black hover:shadow-xl ">
-              Contact
-            </button>
-          </Link>
+          <button className="border-black mr-4 hover:shadow-xl">Contact</button>
+          <button className="bg-black text-white border-black hover:shadow-xl">
+            Recent Projects
+          </button>
         </div>
       </div>
     </div>

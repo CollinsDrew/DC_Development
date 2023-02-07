@@ -1,5 +1,6 @@
 import React from "react";
 import heroImg from "../Assests/pexels.jpg";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -7,9 +8,9 @@ const Hero = () => {
       <img
         className="top-0 left-0 w-full h-screen object-cover"
         src={heroImg}
-        alt="Hero Image"
+        alt="/"
       />
-      <div className="bg-black/30 absolute tip-0 left-0 w-full h-screen" />
+      <div className="bg-black/30 absolute top-0 left-0 w-full h-screen" />
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
         <div className="md:left-[10%] max-w-[1100px] m-auto absolute p-4">
           <h1 className="font-bold text-5xl md:text-7xl drop-shadow-2xl">
@@ -18,7 +19,9 @@ const Hero = () => {
           <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl">
             Building Your Vision. Powering Your Success.
           </p>
-          <button className="bg-white text-black ">Enquire Now</button>
+          <Link to="contact">
+            <button className="bg-white text-black ">Enquire Now</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -33,42 +33,18 @@ const Navbar = () => {
             : "absolute top-0 h-screen left-[-100%] ease-in duration-500 z-10"
         }
       >
-        <ul className="flex flex-col fixed w-full h-full items-center justify-center">
-          <Link
-            className="font-bold text-3xl p-8 cursor-pointer"
-            onClick={handleNav}
-            to="home"
-            smooth={true}
-            duration={500}
-          >
-            Home
+        <ul className="flex flex-col fixed w-full h-full items-center justify-center cursor-pointer">
+          <Link to="home">
+            <li className="font-bold text-3xl p-8">Home</li>
           </Link>
-          <Link
-            className="font-bold text-3xl p-8 cursor-pointer"
-            onClick={handleNav}
-            to="services"
-            smooth={true}
-            duration={500}
-          >
-            Services
+          <Link to="services">
+            <li className="font-bold text-3xl p-8 cursor-pointer">Services</li>
           </Link>
-          <Link
-            className="font-bold text-3xl p-8 cursor-pointer"
-            onClick={handleNav}
-            to="projects"
-            smooth={true}
-            duration={500}
-          >
-            Projects
+          <Link to="projects">
+            <li className="font-bold text-3xl p-8 cursor-pointer">Projects</li>
           </Link>
-          <Link
-            className="font-bold text-3xl p-8 cursor-pointer"
-            onClick={handleNav}
-            to="contact"
-            smooth={true}
-            duration={500}
-          >
-            Contact
+          <Link to="contact">
+            <li className="font-bold text-3xl p-8 cursor-pointer">Contact</li>
           </Link>
         </ul>
       </div>

@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
 @layer base {
   button {
     @apply border py-2 px-3 rounded-full;
     @apply cursor-pointer;
   }
+}
+
+body {
+  background-image: linear-gradient(to right, #000000, #434343) !important;
+  @apply font-[Raleway];
+}
+
+li {
+  @apply cursor-pointer;
 }
