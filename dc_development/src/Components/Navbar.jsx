@@ -34,17 +34,34 @@ const Navbar = () => {
         }
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center cursor-pointer">
-          <Link to="home">
-            <li className="font-bold text-3xl p-8">Home</li>
+          {/* <Link to="home" smooth={true} duration={500}>
+            <li onClick={handleNav} className="font-bold text-3xl p-8">
+              Home
+            </li>
+          </Link> */}
+          <Link to="services" smooth={true} duration={500}>
+            <li
+              onClick={handleNav}
+              className="font-bold text-3xl p-8 cursor-pointer"
+            >
+              Services
+            </li>
           </Link>
-          <Link to="services">
-            <li className="font-bold text-3xl p-8 cursor-pointer">Services</li>
+          <Link to="projects" smooth={true} duration={500}>
+            <li
+              onClick={handleNav}
+              className="font-bold text-3xl p-8 cursor-pointer"
+            >
+              Projects
+            </li>
           </Link>
-          <Link to="projects">
-            <li className="font-bold text-3xl p-8 cursor-pointer">Projects</li>
-          </Link>
-          <Link to="contact">
-            <li className="font-bold text-3xl p-8 cursor-pointer">Contact</li>
+          <Link to="contact" smooth={true} duration={500}>
+            <li
+              onClick={handleNav}
+              className="font-bold text-3xl p-8 cursor-pointer"
+            >
+              Contact
+            </li>
           </Link>
         </ul>
       </div>
