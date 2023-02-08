@@ -47,6 +47,9 @@ const About = () => {
         <p className="text-2xl py-6 text-gray-400">
           Empowering your brand with innovative web solutions.
         </p>
+        <h5 className="text-2xl md:text-2xl font-bold text-gray-400 py-6">
+          Wireframe
+        </h5>
         <p className="pb-6">
           Designing a website involves a lot of planning and creativity. It is
           essential to have a clear understanding of the purpose and goals of
@@ -54,20 +57,31 @@ const About = () => {
           a website is to create a wireframe, which is a visual representation
           of the website's structure and content. A wireframe helps to plan the
           layout of the pages, the placement of the elements, and the flow of
-          the user interface. Once the wireframe is approved, the next step is
-          to create a prototype, which is a working model of the website. A
-          prototype is an interactive representation of the website that
-          provides a more detailed view of the user interface and the user
-          experience. A prototype is a great way to test the design and user
-          experience, and to get feedback from stakeholders. Next, we create the
-          pages and the user interface. t's important to ensure that the website
-          is accessible, responsive, and optimized for search engines. Finally,
-          the website needs to be deployed to the web, which involves uploading
-          the files to a web server and configuring the domain name and web
-          hosting. The website should be tested on different devices and
-          browsers to ensure that it works as expected. By following a
-          structured process and working closely with clients, we can create a
-          website that meets your users and supports your business goals.
+          the user interface.
+        </p>
+        <h5 className="text-2xl md:text-2xl font-bold text-gray-400 py-6">
+          Prototype
+        </h5>
+        <p className="pb-6">
+          Once the wireframe is approved, the next step is to create a
+          prototype, which is a working model of the website. A prototype is an
+          interactive representation of the website that provides a more
+          detailed view of the user interface and the user experience. A
+          prototype is a great way to test the design and user experience, and
+          to get feedback from stakeholders. Next, we create the pages and the
+          user interface. It's important to ensure that the website is
+          accessible, responsive, and optimized for search engines.
+          <h5 className="text-2xl md:text-2xl font-bold text-gray-400 py-6">
+            Deployment
+          </h5>
+          <p className="pb-6">
+            Finally, the website needs to be deployed to the web, which involves
+            uploading the files to a web server and configuring the domain name
+            and web hosting. The website should be tested on different devices
+            and browsers to ensure that it works as expected. By following a
+            structured process and working closely with clients, we can create a
+            website that meets your users and supports your business goals.
+          </p>
         </p>
         <div>
           <Link to="contact" smooth={true} duration={500}>

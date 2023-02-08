@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="absolute w-full flex justify-between p-4 items-center">
       <img
         src={Logo}
-        alt="Logo Image"
+        alt="Logo"
         style={{ width: "50px", borderRadius: "50%" }}
       />
       <HiMenuAlt3
