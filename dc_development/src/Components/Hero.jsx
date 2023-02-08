@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen">
+    <div name="home" className="w-full h-screen">
       <img
         className="top-0 left-0 w-full h-screen object-cover"
         src={heroImg}
